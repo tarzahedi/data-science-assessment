@@ -120,6 +120,9 @@ Make sure that you put the input data in resources folder.
 To run the pipeline using Prefect. You can start the Prefect UI:
 
 ```shell
+# Make sure prefect is using local version
+prefect config set PREFECT_API_URL=http://127.0.0.1:4200/api
+
 prefect server start
 ```
 
@@ -131,6 +134,9 @@ cloud-based services to deploy your pipelines.
 To run task pipeline you should run the following commands in the root folder:
 
 ```shell
+# Make sure that prefect is running and API URL is set.
+# prefect config set PREFECT_API_URL=http://127.0.0.1:4200/api
+
 # Running the pipeline for task_1
 python task_1.py
 
@@ -151,3 +157,15 @@ jupyter-notebooks .
 ```
 
 You can now open the notebook that you want and run it inside jupyter notebook.
+
+
+### Streamlit
+
+
+To run the streamlit app:
+
+```bash
+streamlit run app.py
+```
+
+T
