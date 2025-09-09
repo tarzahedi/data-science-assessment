@@ -1,0 +1,11 @@
+pandas
+notebook
+openpyxl
+notebook
+prefect
+scipy
+beautifulsoup4
+matplotlib
+numpy
+scikit-learn
+streamlit
