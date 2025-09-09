@@ -78,4 +78,6 @@ streamlit run app.py
 ```
 You can also try the online version of the app on [Streamlit Cloud](https://rfq-similarity.streamlit.app/).
 
+The app could show more features, but is limited since the data stays offline for privacy.
+
 ![streamlit_app](./docs/task_2_app.png)

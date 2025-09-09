@@ -139,8 +139,7 @@ Make sure that you put the input data in resources folder.
 
 ### Pipelines (Prefect)
 
-We are using Prefect to make our solution scalable. we can
-also easily deploy the code to production with minor changes.
+I used Prefect to make the solution scalable. The code can also be easily deployed to production with minor changes.
 
 To run the pipeline using Prefect. You can start the Prefect UI:
 
@@ -190,3 +189,5 @@ To run the streamlit app:
 ```bash
 streamlit run app.py
 ```
+
+Explore the app live on [Streamlit Cloud](https://rfq-similarity.streamlit.app/).
