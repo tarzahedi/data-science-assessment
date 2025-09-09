@@ -59,13 +59,17 @@ The data processing workflow is orchestrated using **Prefect**, ensuring modular
 
 
 ## Future Work
+
 - **External Grade Mapping**: Enrich UNS/Steel numbers using trusted material databases.
-- **NLP Extraction**: Leverage `application_ref` and `surface_protection` for additional categorical signals.
-- **Advanced Imputation**: Use machine learning to infer missing tensile/yield values.
-- **Evaluation Metrics**: Incorporate domain expert validation for similarity scores.
-- **Scalability**: Optimize similarity computation for larger datasets.
+- **NLP & LLM Extraction**: Extract structured features from RFQ descriptions and supplier files, with automatic translation to English.
+- **Advanced Imputation**: Predict missing mechanical values using machine learning.
+- **Similarity Tracking**: Track performance of different similarity measures with MLflow.
+- **Expanded Data & Automation**: Scrape additional reference data, auto-detect file formats, and correct minor input differences using fuzzy matching.
+- **End-to-End Matching**: Recommend potential suppliers (Task 1) for each RFQ (Task 2) based on similarity scores.
+
 
 ## Streamlit App
+
 A **Streamlit app** was created to explore RFQ similarity interactively.
 
 **To run the app:**

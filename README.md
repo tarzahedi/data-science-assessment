@@ -1,4 +1,9 @@
-# Data science tasks
+# Data Science Assessment
+
+This repository contains two data science **workflows** demonstrating data cleaning, integration, and analysis techniques:
+
+1. **Supplier Data Processing** – Standardizes and merges inventory data from multiple suppliers into a clean dataset ready for analysis or machine learning.
+2. **RFQ–Reference Matching** – Cleans and merges RFQ data with reference material properties, and builds a similarity framework for matching and clustering RFQs, complete with an interactive Streamlit app.
 
 Kindly look at `task_1.md` and `task_2.md` for the description of how the solutions
 for each task is implemented.
@@ -131,6 +136,9 @@ independently.
 Make sure that you put the input data in resources folder.
 
 ### Pipelines (Prefect)
+
+We are using Prefect to make our solution scalable. we can
+also easily deploy the code to production with minor changes.
 
 To run the pipeline using Prefect. You can start the Prefect UI:
 
