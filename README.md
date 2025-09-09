@@ -111,8 +111,9 @@ exact versioning if you encountered any problem during the installation.
 
 ## Data
 
-The input data sources are not part of the project. Please make sure
-that you download and put them as resources folder:
+The **input data** sources are not part of the project. Please make sure that you download and put them as resources folder.
+
+The **output files** will go to the export folder inside resources, as shown in the structure.
 
 ```text
 repository_root
@@ -129,6 +130,7 @@ repository_root
 │       └── rfq.csv
 
 ```
+
 
 ## Usage
 
