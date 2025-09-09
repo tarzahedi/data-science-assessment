@@ -1,20 +1,29 @@
 # Data science tasks
 
+Kindly look at `task_1.md` and `task_2.md` for the description of how the solutions
+for each task is implemented.
+
 ## Project folder Structure
 
 ```text
 ├── docs
 │   ├── task_1_pipeline.jpg
+│   ├── task_2_app.png
+│   ├── task_2_cluster.png
 │   └── task_2_pipeline.jpg
 ├── notebooks
-│   └── cross_reference_builder.ipynb
+│   ├── cross_reference_builder.ipynb
+│   ├── task_1.ipynb
+│   └── task_2.ipynb
 ├── pipeline
 │   ├── __init__.py
 │   ├── task_1_pipeline.py
 │   └── task_2_pipeline.py
 ├── resources
 │   ├── export
-│   │   └── .gitkeep
+│   │   ├── .gitkeep
+│   │   ├── inventory_dataset.csv
+│   │   └── top3.csv
 │   ├── task_1
 │   │   ├── .gitkeep
 │   │   ├── supplier_data1.xlsx
@@ -31,11 +40,15 @@
 │   ├── log.py
 │   └── similarity.py
 ├── .gitignore
+├── .python-version
+├── app.py
 ├── README.md
 ├── requirements_simple.txt
 ├── requirements.txt
 ├── setup.cfg
+├── task_1.md
 ├── task_1.py
+├── task_2.md
 └── task_2.py
 ```
 
