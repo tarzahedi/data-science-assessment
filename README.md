@@ -27,6 +27,7 @@ for each task is implemented.
 ├── resources
 │   ├── export
 │   │   ├── .gitkeep
+│   │   ├── cross_reference_table.csv
 │   │   ├── inventory_dataset.csv
 │   │   └── top3.csv
 │   ├── task_1
@@ -116,8 +117,9 @@ that you download and put them as resources folder:
 ```text
 repository_root
 ├── resources
-│   ├── export                          # Exports go here
-│   │   └── inventory_dataset.csv
+│   ├── export
+│   │   ├── cross_reference_table.csv   # Exports go here
+│   │   ├── inventory_dataset.csv
 │   │   └── top3.csv
 │   ├── task_1                          # Task_1 files
 │   │   ├── supplier_data1.xlsx
