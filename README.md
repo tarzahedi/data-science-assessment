@@ -64,7 +64,7 @@ for each task is implemented.
 Clone the repository using the following command:
 
 ```shell
-git clone github.com:tarzahedi/data-science-assessment.git
+git clone git@github.com:tarzahedi/data-science-assessment.git
 cd data-science-assessment
 ```
 
