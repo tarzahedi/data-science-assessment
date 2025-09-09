@@ -76,5 +76,6 @@ A **Streamlit app** was created to explore RFQ similarity interactively.
 ```bash
 streamlit run app.py
 ```
+You can also try the online version of the app on [Streamlit Cloud](https://rfq-similarity.streamlit.app/).
 
 ![streamlit_app](./docs/task_2_app.png)
