@@ -6,6 +6,8 @@
 ├── docs
 │   ├── task_1_pipeline.jpg
 │   └── task_2_pipeline.jpg
+├── notebooks
+│   └── cross_reference_builder.ipynb
 ├── pipeline
 │   ├── __init__.py
 │   ├── task_1_pipeline.py
@@ -158,9 +160,7 @@ jupyter-notebooks .
 
 You can now open the notebook that you want and run it inside jupyter notebook.
 
-
 ### Streamlit
-
 
 To run the streamlit app:
 
