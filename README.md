@@ -167,5 +167,3 @@ To run the streamlit app:
 ```bash
 streamlit run app.py
 ```
-
-T
