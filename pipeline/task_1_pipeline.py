@@ -192,7 +192,7 @@ def preprocess_supplier_1(supplier_1: pd.DataFrame) -> pd.DataFrame:
     supplier_1.rename(
         columns={
             "grade": "grade_material",
-            "gross_weight_kg": "weight_kg",
+            "gross_weight": "weight",
         },
         inplace=True,
     )
